@@ -19,6 +19,7 @@ filter_OSL_grains <- function(data, list_filter_options = "all", d0filt_limit = 
     list_filter_options <- list("positive", "feldsparfilt", "d0filt","recuperation", "zerodoserem", "nanrem")
   }
 
+
   filtered_datasets <- list ()
   positive_data <- data[!(data$De.Gy < 0), ]
   feldspar_filt <- positive_data[which(positive_data$RR3 >= 0.9 & positive_data$RR3 <= 1.1), ]
