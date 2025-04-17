@@ -5,11 +5,14 @@
 #' @param path_for_save Directory for where you want to save the file.
 #' @param plots TRUE or FALSE (default). If TRUE, standard plots from the calc_AverageDose function will be plotted.
 #'
+#' @importFrom utils install.packages write.table
+#' @importFrom stats na.omit
 #' @return cam_output. COntains table of CAM ages, Over dispersion
 #' @export
 #'
 #' @examples
 cam_ages <- function(datasets, path_for_save = NULL, plots = FALSE){
+
   if (!requireNamespace("Luminescence", quietly = TRUE)) {
     install.packages("Luminescence")
   }

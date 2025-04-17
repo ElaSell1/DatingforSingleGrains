@@ -9,10 +9,13 @@
 #' @param path_for_save Directory for where you want to save the file.
 #' @param plots TRUE or FALSE (default). If TRUE, standard plots from the calc_AverageDose function will be plotted.
 #'
+#' @importFrom utils install.packages write.table
+#' @importFrom stats na.omit
 #' @return adm_outputs
 #' @export
 #'
 #' @examples
+#'
 adm_ages <- function(datasets, sigma,  path_for_save = NULL, plots = FALSE){
 
   if (!requireNamespace("Luminescence", quietly = TRUE)) {
