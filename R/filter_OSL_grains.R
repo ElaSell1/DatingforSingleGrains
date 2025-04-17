@@ -1,16 +1,19 @@
-## filter_osl_grains
-# This script takes your loaded excel file, and filters grains based on different criteria
-# Criteria include:
-#   "positive" WHich only removes negative grains
-#   "feldsparfilt" WHich removes negative De avlues, and then only keeps grains with IRSL depletion ratio 0.9<>1
-#   "d0filt" after filtering for feldspars, this removes grains with D0 values less than the mean De (Default), or less than the value stated in d0filt
-#   "recuperation" after filtering for feldspars,Removes grains with recuperation values < 0.1
-#    "zerodoserem" after filtering for feldspars, removes grains with doses < 1 Gy
-#    "nanrem" after filtering for feldspars, it removes  grains with De as NAN
-#
-#Options for plotting De histograms and density plots, as well as De Gy vs. De err Gy, and De Gy vs. D0 Gy. Default = TRUE
-##
-
+#' filter_osl_grains
+#' @param data Data frame with OSL data, which must contain columns labelled De Gy, De errGy, D0 Gy and D0 err Gy
+#' @param list_filter_options list of strings to state what type of filtering you want for your grains. #   "positive" WHich only removes negative grains
+#' "feldsparfilt" WHich removes negative De avlues, and then only keeps grains with IRSL depletion ratio 0.9<>1
+#'  "d0filt" after filtering for feldspars, this removes grains with D0 values less than the mean De (Default), or less than the value stated in d0filt
+#'  "recuperation" after filtering for feldspars,Removes grains with recuperation values < 0.1
+#'   "zerodoserem" after filtering for feldspars, removes grains with doses < 1 Gy
+#'   "nanrem" after filtering for feldspars, it removes  grains with De as NAN
+#' @param d0filt_limit Optional. Numeric value to be used as a lower threshold for D0 filtering.
+#' @param plots TRUE (default) or FALSE. If TRUE, histogram and dnesity plots of De values are show, as well as De Gy VS. DE error Gy plots, and De Gy VS> D0 Gy plots. .
+#'
+#' @return Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering type.
+#' @export
+#'
+#' @examples
+#'
 filter_OSL_grains <- function(data, list_filter_options = "all", d0filt_limit = NULL, plots = TRUE) {
 
   # list_filter_options = "positive", "feldsparfilt", "d0filt","recuperation", "zerodoserem", "nanrem" Or use "all" to receive all filtered data sets.
@@ -18,7 +21,6 @@ filter_OSL_grains <- function(data, list_filter_options = "all", d0filt_limit = 
   if("all" %in% list_filter_options){
     list_filter_options <- list("positive", "feldsparfilt", "d0filt","recuperation", "zerodoserem", "nanrem")
   }
-
 
   filtered_datasets <- list ()
   positive_data <- data[!(data$De.Gy < 0), ]

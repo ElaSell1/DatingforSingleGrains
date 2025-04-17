@@ -1,7 +1,17 @@
-
-
+#' Title
+#'
+#' @param path Directory path for where you whant to save your data.
+#' @param data List of OSL data.
+#' @param discpos_to_save Optional. List of strings of which DiscPos files you want to save. Each data set in the list will be saved if no data set is specified.
+#' @param discpos_to_use Optiona. State here which data set in particular you want to start using, and this DiscPos file will be labelled as DiscPos.csv and will be directly usable for BayLum.
+#' @param env_dose_rates Optional.
+#' @param reader_dose_rates Optional.
+#'
+#' @return Does not return any value to R.
+#' @export
+#'
+#' @examples
 save_discpos_files <- function(path, data, discpos_to_save = NULL, discpos_to_use = NULL, env_dose_rates = NULL, reader_dose_rates = NULL) {
-  library(writexl)
 
   # If discpos_to_save is NULL or empty, use the names of the datasets
   if (is.null(discpos_to_save) || length(discpos_to_save) == 0 || discpos_to_save == "all" ){
