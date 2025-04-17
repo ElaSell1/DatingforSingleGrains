@@ -28,7 +28,7 @@ cam_ages <- function(datasets, path_for_save = NULL, plots = FALSE){
     all_vals <- data.frame(de = as.numeric(dat_to_analyse$De.Gy), de_err = as.numeric(dat_to_analyse$De.err.Gy))
     all_vals <- all_vals[!apply(all_vals, 1, function(x) any(x <= 0)), ]
 
-    all_cam_log <- Luminescence::calc_AverageDose(all_vals , log = TRUE, na.rm = TRUE, plot = plots)
+    all_cam_log <- Luminescence::calc_CentralDose(all_vals , log = TRUE, na.rm = TRUE, plot = plots)
     cam_output[name,] <- (all_cam_log@data[["summary"]])
   }
 

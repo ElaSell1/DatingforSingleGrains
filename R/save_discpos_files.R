@@ -11,15 +11,17 @@
 #' @export
 #'
 #' @examples
+#'
 save_discpos_files <- function(path, data, discpos_to_save = NULL, discpos_to_use = NULL, env_dose_rates = NULL, reader_dose_rates = NULL) {
 
   # If discpos_to_save is NULL or empty, use the names of the datasets
-  if (is.null(discpos_to_save) || length(discpos_to_save) == 0 || discpos_to_save == "all" ){
+  if (is.null(discpos_to_save) || discpos_to_save == "all" ){
     discpos_to_save <- names(data)
+    print("set to all")
   }
-
+  print("set to all")
   if (!all(discpos_to_save %in% names(data))) {
-    stop("Error: One or more values in discpos_to_save are not found in the data variable.")
+    stop("Error: One or more values in discpos_to_save are not found. Please check the names of your data sets.")
   }
 
   for (dat_type in discpos_to_save) {
