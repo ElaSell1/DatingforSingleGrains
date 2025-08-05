@@ -1,6 +1,3 @@
-
-
-
 #' adm_ages
 #' Takes De Gy values from list and calls to the function calc_AverageDose.
 #' Saves results as a summary table as a dataframe and has options to save the results as a csv file.

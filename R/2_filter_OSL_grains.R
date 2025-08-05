@@ -17,6 +17,12 @@
 filter_OSL_grains <- function(data, list_filter_options = "all", d0filt_limit = NULL, plots = TRUE) {
 
   # list_filter_options = "positive", "feldsparfilt", "d0filt","recuperation", "zerodoserem", "nanrem" Or use "all" to receive all filtered data sets.
+  required_cols <- c("De Gy", "De err Gy", "D0 Gy", "D0 err Gy")
+
+  if (!all(required_cols %in% colnames(data))) {
+    missing <- required_cols[!required_cols %in% colnames(data)]
+    stop(paste("Error: You are missing the columns: De Gy, De err Gy, D0 Gy, D0 err Gy. Please open your excel file and make these columns, or use the function: convert_to_Gy_Excel.", paste(missing, collapse = ", ")))
+  }
 
   if("all" %in% list_filter_options){
     list_filter_options <- list("positive", "feldsparfilt", "d0filt","recuperation", "zerodoserem", "nanrem")

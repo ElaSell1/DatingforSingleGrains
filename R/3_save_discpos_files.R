@@ -1,4 +1,5 @@
-#' Title
+#' Options to save CSV files consisting of 2 columns Disc;Pos
+#' Ready for use with BayLum.
 #'
 #' @param path Directory path for where you whant to save your data.
 #' @param data List of OSL data.
@@ -7,7 +8,7 @@
 #' @param env_dose_rates Optional.
 #' @param reader_dose_rates Optional.
 #'
-#' @return Does not return any value to R.
+#' @return
 #' @export
 #'
 #' @examples
