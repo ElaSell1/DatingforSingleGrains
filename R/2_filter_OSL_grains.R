@@ -9,7 +9,7 @@
 #' @param d0filt_limit Optional. Numeric value to be used as a lower threshold for D0 filtering.
 #' @param plots TRUE (default) or FALSE. If TRUE, histogram and dnesity plots of De values are show, as well as De Gy VS. DE error Gy plots, and De Gy VS> D0 Gy plots. .
 #'
-#' @return Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering type.
+#' @return Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering types
 #' @export
 #'
 #' @examples

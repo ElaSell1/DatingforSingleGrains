@@ -1,7 +1,7 @@
 #' Options to save CSV files consisting of 2 columns Disc;Pos
 #' Ready for use with BayLum.
 #'
-#' @param path Directory path for where you whant to save your data.
+#' @param path Directory path for where you whant to load your data from or save your data.
 #' @param data List of OSL data.
 #' @param discpos_to_save Optional. List of strings of which DiscPos files you want to save. Each data set in the list will be saved if no data set is specified.
 #' @param discpos_to_use Optiona. State here which data set in particular you want to start using, and this DiscPos file will be labelled as DiscPos.csv and will be directly usable for BayLum.

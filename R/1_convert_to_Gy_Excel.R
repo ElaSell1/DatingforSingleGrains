@@ -1,4 +1,4 @@
-#' Add or Update Dose Columns in Excel Data and Save
+#' Add or Update Dose Columns in Excel Data and Save, instead of doing it manually.
 #'
 #' This function reads an Excel file, calculates the equivalent dose and uncertainty in Gy using the provided dose rate and uncertainty, and updates or creates the columns: "De Gy", "De err Gy", "D0 Gy", "D0 err Gy". The updated Excel file is saved.
 #'
