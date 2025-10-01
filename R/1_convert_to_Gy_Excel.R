@@ -66,7 +66,7 @@ add_DeGy_columns <- function(file_path, dose_rate) {
 
 
 
-  # # Calculate and update dose columns
+  # Calculate and update dose columns
   # data[["De Gy"]]      <- de_s_col * dose_rate
   # data[["De err Gy"]]  <- data[["De Gy"]] * sqrt((de_err_s_col / de_s_col)^2 + (dose_rate_err / dose_rate)^2)
   # data[["D0 Gy"]]      <- d0_s_col * dose_rate
