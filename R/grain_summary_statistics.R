@@ -14,12 +14,9 @@ grain_summary_statistics <- function(datasets, path_for_save = NULL){
   if (!requireNamespace("diptest", quietly = TRUE)) {
     install.packages("diptest")
   }
-
   if (!requireNamespace("e1071", quietly = TRUE)) {
     install.packages("e1071")
   }
-
-
 
   summary_stats <- data.frame(matrix(ncol = length(datasets) + 1, nrow = 13))
   colnames(summary_stats) <- names(datasets)
