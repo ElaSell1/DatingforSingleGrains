@@ -2,7 +2,7 @@
 % Please edit documentation in R/grain_summary_statistics.R
 \name{grain_summary_statistics}
 \alias{grain_summary_statistics}
-\title{Title}
+\title{This code calculates different summary statistics for data sets which have been filytered by different means. You must input lists of De values.}
 \usage{
 grain_summary_statistics(datasets, path_for_save = NULL)
 }
@@ -15,5 +15,5 @@ grain_summary_statistics(datasets, path_for_save = NULL)
 Returns a table with all summary statistics in. If Path for save is supplied, this table will be saved as a CSV file.
 }
 \description{
-Title
+This code calculates different summary statistics for data sets which have been filytered by different means. You must input lists of De values.
 }

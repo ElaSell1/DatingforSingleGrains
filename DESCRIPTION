@@ -1,17 +1,22 @@
-Package: EasyOSL
+Package: DatingforSingleGrains
 Type: Package
-Title: EasyOSL SIMPLE FUNCTIONS FOR ANALYSING SG OSL DATA
+Title: DatingforSingleGrains SIMPLE FUNCTIONS FOR ANALYSING SG OSL DATA
 Version: 0.1.0
 Author: Authors@R:
     c(person(given = "E",
-           family = "SELLWOOD", 
+           family = "SELLWOOD",
            role = c("aut", "cre"),
-           email="el.sellwood@gmail.com"))
-Maintainer: The package maintainer <yourself@somewhere.net>
-Description: This package contains several simple functions used in the initial stages of single grain quartz analysis. 
+           email = "el.sellwood@gmail.com"))
+Maintainer: E SELLWOOD <el.sellwood@gmail.com>
+Description: This package contains several simple functions used in the initial stages of single grain quartz analysis.
 License: GPL (>= 3)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/ElaSell1/EasyOSL
-BugReports: https://github.com/ElaSell1/EasyOSL/issues
-RoxygenNote: 7.3.2
+URL: https://github.com/ElaSell1/DatingforSingleGrains
+BugReports: https://github.com/ElaSell1/DatingforSingleGrains/issues
+RoxygenNote: 7.3.3
+Imports:
+    readxl,
+    writexl
+Depends:
+    R (>= 3.6.0)

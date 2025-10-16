@@ -26,7 +26,7 @@ filter_OSL_grains(
 \item{plots}{TRUE (default) or FALSE. If TRUE, histogram and dnesity plots of De values are show, as well as De Gy VS. DE error Gy plots, and De Gy VS> D0 Gy plots. .}
 }
 \value{
-Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering type.
+Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering types
 }
 \description{
 filter_osl_grains

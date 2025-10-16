@@ -2,7 +2,8 @@
 % Please edit documentation in R/save_discpos_files.R
 \name{save_discpos_files}
 \alias{save_discpos_files}
-\title{Title}
+\title{Options to save CSV files consisting of 2 columns Disc;Pos
+Ready for use with BayLum.}
 \usage{
 save_discpos_files(
   path,
@@ -14,7 +15,7 @@ save_discpos_files(
 )
 }
 \arguments{
-\item{path}{Directory path for where you whant to save your data.}
+\item{path}{Directory path for where you whant to load your data from or save your data.}
 
 \item{data}{List of OSL data.}
 
@@ -26,9 +27,7 @@ save_discpos_files(
 
 \item{reader_dose_rates}{Optional.}
 }
-\value{
-Does not return any value to R.
-}
 \description{
-Title
+Options to save CSV files consisting of 2 columns Disc;Pos
+Ready for use with BayLum.
 }
