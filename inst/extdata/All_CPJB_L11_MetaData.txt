@@ -1,0 +1,22 @@
+Title: Fast climatic transitions – designing novel statistical tools to study the adaptations of human societies to rapidly changing environments.
+
+Creator(s): E. L. Sellwood. Univeristé de Rennes, Geosciences, 35065, Rennes, France. 
+
+Description: Excel data files containing initial anlaysis of single grain OSL data using Analyst Risø software, for 20 samples collected from Chez-Pinaud, Jonzac, SW France (45.4375°, 0.419194°).
+
+Keywords/Tags: Optically Stimulated Luminescence, OSL, quartz, single grain, Neanderthal, Chez-Pinaud, Jonzac, Bayesian statistics.
+
+Date: November 2025.
+
+License: The data available is free for use for training or data exploration, or for recreating analysis. It is forbidden to use this data for publication or scientific production without full acknowledgement of the original author and source. 
+
+File Information: 
+This is an example Eccel file with the results from Analyst for sample CPJB_L11. The data in the spreadsheet is used for subsequent analysis and eventual age determination. 
+
+Methodology: 
+Single grain discs were loaded with 100 grains and measured on a Risø TL/OSL reader at RenDal laboratory at Univeristé de Rennes. 
+Grains were stimulated with green light, and OSL detected through a Hoya U-340 and a Schott BG-39 blue filter pack. 
+Raw OSL measurement data is stored automatically via the Risø reader software, as .BINX files. The results of this initial analysis was then copied and pasted into Excel. 
+
+
+Funding: This project has received funding from the European Union’s Horizon 2020 research and innovation programme under the Marie Skłodowska-Curie grant agreement No 899546.

@@ -5,7 +5,6 @@ library(BayLumPlus)
 library(rjags)
 ####################################################################
 ## 0. Set WD and file path
-setwd("D:/Home/esellwood/OneDrive - Université de Rennes/Post Doc-PR048038/3. CPJB OSL/2. Analysis/Std_analysis_package/EasyOSL/EasyOSL/data/")
 
 file <- "All_CPJB_L11.xlsx"
 
