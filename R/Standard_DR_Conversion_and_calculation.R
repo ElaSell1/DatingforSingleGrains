@@ -28,8 +28,8 @@ dr_meas<- convert_Concentration2DoseRate()
 ################################################################################
 
 ## Change your working directory and file name:
-path <- "D:/Home/esellwood/Documents/4. Dose rate measurements/CPJB Dose rate analysis/"
-file_name <- "RenDal Gammaspec analysis CPJB L20.xlsx"
+path <- "/"
+file_name <- "RenDal Gammaspec analysis CPJB L11.xlsx"
 file <- paste0(path,file_name)
 
 raw_data <- read_excel(file, sheet = "Sample details")

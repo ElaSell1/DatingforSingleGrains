@@ -12,12 +12,13 @@ License: The data available is free for use for training or data exploration, or
 
 File Information: 
 The metadata in this file is relevant for the following files:
-521_20240725-CPJB-L21-17and1-5Pos1-45-De_determination.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 25-07-2024, samples L1_2-L5, L17-L21 measured for equivalent dose. 
-521_20240806-CPJB-L6-16Pos1-44-De_determination.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 06-08-2024, samples L6-L16 measured for equivalent dose. 
-521_20240916-CPJB-L1and2-5Pos7-46-De_determination-Cal_pos1-6.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 16-09-2024, samples L1_2-L5 measured for equivalent dose. Ignore data in positions 1-6. 
-521_20241016-CPJB-L15-18_pos1-40_De_determination_and_Cal_pos41-46_COMBINED.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 16-10-2024, samples L15-L18 measured for equivalent dose.  Ignore data in positions 41-46.
-522_20241002-CPJB-L10-14-De_determination.binx. Reader 522 (Dose rate 0.166 Gy/s), measurement date 02-10-2024,samples L10-L14 measured for equivalent dose. 
-522_20241018-CPJB-L19-21_L1-3-De_determination_Cal_pos43-48.binx. Reader 522 (Dose rate 0.166 Gy/s), measurement date 18-10-2024,samples L1-L3 and L19-L21 measured for equivalent dose.
+521_20240725-CPJB-L21-17and1-5Pos1-45-De.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 25-07-2024, samples L1_2-L5, L17-L21 measured for equivalent dose. 
+521_20240806-CPJB-L6-16Pos1-44-De.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 06-08-2024, samples L6-L16 measured for equivalent dose. 
+521_20241003-CPJB-L6-9-Combined. Reader 522 (Dose rate 0.166 Gy/s), measurement date 03-10-2024,samples L6-9 measured for equivalent dose. 
+521_20240916-CPJB-L1and2-5Pos7-46-De.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 16-09-2024, samples L1_2-L5 measured for equivalent dose. Ignore data in positions 1-6. 
+522_20241002-CPJB-L10-14-De.binx. Reader 522 (Dose rate 0.166 Gy/s), measurement date 02-10-2024,samples L10-L14 measured for equivalent dose. 
+522_20241018-CPJB-L19-21_L1-3-De.binx. Reader 522 (Dose rate 0.166 Gy/s), measurement date 18-10-2024,samples L1-L3 and L19-L21 measured for equivalent dose.
+521_20241016-CPJB-L15-18_pos1-40_De.binx. Reader 521 (Dose rate 0.158 Gy/s), measurement date 16-10-2024, samples L15-L18 measured for equivalent dose.  Ignore data in positions 41-46.
 
 
 Methodology: 

@@ -9,7 +9,6 @@
 #' @return A data frame with updated dose columns.
 #' @export
 #'
-#' @examples
 #' \dontrun{
 #' updated_data <- add_missing_columns("data.xlsx", dose_rate = 2.5, dose_rate_err = 0.1)
 #' }

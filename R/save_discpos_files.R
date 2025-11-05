@@ -7,10 +7,9 @@
 #' @param env_dose_rates Optional.
 #' @param reader_dose_rates Optional.
 #'
-#' @return
+#' @return Returns files in your set path where lists of disc;pos for desired grains are saved as a CSV file.
 #' @export
 #'
-#' @examples
 #'
 save_discpos_files <- function(path, data, discpos_to_use = NULL, env_dose_rates = NULL, reader_dose_rates = NULL) {
 

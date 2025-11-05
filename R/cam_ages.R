@@ -10,7 +10,6 @@
 #' @return cam_output. COntains table of CAM ages, Over dispersion
 #' @export
 #'
-#' @examples
 #'
 cam_ages <- function(datasets, path_for_save = NULL, plots = FALSE){
 

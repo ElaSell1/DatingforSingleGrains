@@ -11,7 +11,6 @@
 #' @return adm_outputs
 #' @export
 #'
-#' @examples
 #'
 adm_ages <- function(datasets, sigma,  path_for_save = NULL, plots = FALSE){
 

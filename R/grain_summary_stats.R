@@ -1,12 +1,11 @@
-#' This code calculates different summary statistics for data sets which have been filytered by different means. You must input lists of De values.
+#' This code calculates different summary statistics for data sets which have been filtered by different means. You must input lists of De values.
 #'
 #' @param datasets Contains list of data sets, each with different names.
 #' @param path_for_save Optional. String with path where you want to save your results.
-#' @param samplename
+#' @param samplename String with your sample name.
 #' @return Returns a table with all summary statistics in. If Path for save is supplied, this table will be saved as a CSV file.
 #' @export
-#'
-#' @examples
+
 #'
 grain_summary_stats <- function(datasets, samplename,  path_for_save = NULL){
 

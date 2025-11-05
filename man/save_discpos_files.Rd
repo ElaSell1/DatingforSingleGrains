@@ -8,7 +8,6 @@ Ready for use with BayLum.}
 save_discpos_files(
   path,
   data,
-  discpos_to_save = NULL,
   discpos_to_use = NULL,
   env_dose_rates = NULL,
   reader_dose_rates = NULL
@@ -19,13 +18,14 @@ save_discpos_files(
 
 \item{data}{List of OSL data.}
 
-\item{discpos_to_save}{Optional. List of strings of which DiscPos files you want to save. Each data set in the list will be saved if no data set is specified.}
-
-\item{discpos_to_use}{Optiona. State here which data set in particular you want to start using, and this DiscPos file will be labelled as DiscPos.csv and will be directly usable for BayLum.}
+\item{discpos_to_use}{Optional. State here which data set in particular you want to start using, and this DiscPos file will be labelled as DiscPos.csv and will be directly usable for BayLum.}
 
 \item{env_dose_rates}{Optional.}
 
 \item{reader_dose_rates}{Optional.}
+}
+\value{
+Returns files in your set path where lists of disc;pos for desired grains are saved as a CSV file.
 }
 \description{
 Options to save CSV files consisting of 2 columns Disc;Pos

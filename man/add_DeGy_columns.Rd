@@ -4,7 +4,7 @@
 \alias{add_DeGy_columns}
 \title{Add or Update Dose Columns in Excel Data and Save, instead of doing it manually.}
 \usage{
-add_DeGy_columns(file_path, dose_rate, dose_rate_err)
+add_DeGy_columns(file_path, dose_rates)
 }
 \arguments{
 \item{file_path}{Path to the input Excel file.}

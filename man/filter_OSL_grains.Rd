@@ -6,7 +6,7 @@
 \usage{
 filter_OSL_grains(
   data,
-  list_filter_options = "all",
+  filter_options = "all",
   d0filt_limit = NULL,
   plots = TRUE
 )
@@ -14,12 +14,12 @@ filter_OSL_grains(
 \arguments{
 \item{data}{Data frame with OSL data, which must contain columns labelled De Gy, De errGy, D0 Gy and D0 err Gy}
 
-\item{list_filter_options}{list of strings to state what type of filtering you want for your grains. #   "positive" WHich only removes negative grains
+\item{filter_options}{list of strings to state what type of filtering you want for your grains. #   "positive" WHich only removes negative grains
 "feldsparfilt" WHich removes negative De avlues, and then only keeps grains with IRSL depletion ratio 0.9<>1
- "d0filt" after filtering for feldspars, this removes grains with D0 values less than the mean De (Default), or less than the value stated in d0filt
- "recuperation" after filtering for feldspars,Removes grains with recuperation values < 0.1
-  "zerodoserem" after filtering for feldspars, removes grains with doses < 1 Gy
-  "nanrem" after filtering for feldspars, it removes  grains with De as NAN}
+"d0filt" after filtering for feldspars, this removes grains with D0 values less than the mean De (Default), or less than the value stated in d0filt
+"recuperation" after filtering for feldspars,Removes grains with recuperation values < 0.1
+"zerodoserem" after filtering for feldspars, removes grains with doses < 1 Gy
+"nanrem" after filtering for feldspars, it removes  grains with De as NAN}
 
 \item{d0filt_limit}{Optional. Numeric value to be used as a lower threshold for D0 filtering.}
 

@@ -12,7 +12,6 @@
 #' @return Returns list object with filtered data sets. COlumn names are the same as the strings used for selecting filtering types
 #' @export
 #'
-#' @examples
 #'
 filter_OSL_grains <- function(data, filter_options = "all", d0filt_limit = NULL, plots = TRUE) {
 
